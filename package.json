@@ -1,0 +1,30 @@
+{
+  "name": "babel",
+  "version": "1.0.0",
+  "description": "Babel是一个广泛使用的转码器.\r 可以将ES6代码转为ES5代码，从而在现有环境执行。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisure-web/babel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alisure-web/babel/issues"
+  },
+  "homepage": "https://github.com/alisure-web/babel#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.24.1"
+  },
+  "dependencies": {
+    "babel-core": "^6.25.0",
+    "babel-polyfill": "^6.23.0"
+  }
+}
