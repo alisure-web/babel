@@ -8,9 +8,6 @@ http://www.ruanyifeng.com/blog/2016/01/babel.html
     1.设置IDEA可用ES6
         Settings > Languages & Frameworks > JavaScript
         设置为ECMAScript6即可。
-    2.自动转码为ES5（file watcher + babel（ES6转码器））
-        Settings > Tools > File watchers
-        点击“+”按钮配置即可
 
 
 0.配置文件：.babelrc
